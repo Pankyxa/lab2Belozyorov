@@ -60,7 +60,7 @@ else:
 
 if a % 10 == 1 and a % 100 != 11:
     b += ' рубль'
-elif str(a % 10) in '234' and str(a % 100) not in '12 13 14':
+elif str(a % 10) in '234' and str(a % 100) not in ('12', '13', '14'):
     b += ' рубля'
 else:
     b += ' рублей'
